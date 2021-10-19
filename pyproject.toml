@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "example_gcn"
+version = "0.1.0"
+description = ""
+authors = ["@cocomoff"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.9.1"
+dgl = "^0.6.1"
+torch = "^1.9.1"
+numpy = "^1.21.2"
+networkx = "^2.6.3"
+jupyter = "^1.0.0"
+jupyterlab = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
